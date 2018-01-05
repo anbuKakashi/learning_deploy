@@ -43,5 +43,8 @@ group :development do
   #gem 'mina-unicorn', '0.0.3', :require => false
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  gem 'mina', '0.3.3'
+  gem 'mina-sidekiq', '0.3.0', :require => false
+  gem 'mina-unicorn', '0.0.3', :require => false
 end
 
