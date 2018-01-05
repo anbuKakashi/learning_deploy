@@ -85,10 +85,10 @@ task :deploy => :environment do
     invoke :'sidekiq:quiet'
     invoke :'git:clone'
     invoke :'deploy:link_shared_paths'
-#    invoke :'bundle:install'
-#    invoke :'rails:db_migrate'
-#    invoke :'rails:assets_precompile'
-#    invoke :'deploy:cleanup'
+    invoke :'bundle:install'
+    invoke :'rails:db_migrate'
+    invoke :'rails:assets_precompile'
+    invoke :'deploy:cleanup'
 
     to :launch do
       queue "mkdir -p #{deploy_to}/#{current_path}/tmp/"
