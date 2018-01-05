@@ -18,7 +18,7 @@ set :user, 'ubuntu14'
 set :port, '1994'
 set :repository, 'https://github.com/anbuKakashi/learning_deploy.git'
 set :branch, 'master'
-set :unicorn_pid, "#{deploy_to}/shared/pids/unicorn.pid"
+set :unicorn_pid, "#{deploy_to}/research/shared/pids/unicorn.pid"
 
 # For system-wide RVM install.
 #   set :rvm_path, '/usr/local/rvm/bin/rvm'
