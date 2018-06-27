@@ -13,7 +13,7 @@ require 'mina_sidekiq/tasks'
 #   branch       - Branch name to deploy. (needed by mina/git)
 
 set :domain, '192.168.1.53'
-set :deploy_to, '/home/ubuntu14/research/'
+set :deploy_to, '/home/ubuntu14/research1/'
 set :user, 'ubuntu14'
 set :port, '1994'
 set :repository, 'https://github.com/anbuKakashi/learning_deploy.git'
