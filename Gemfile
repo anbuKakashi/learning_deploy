@@ -48,3 +48,4 @@ group :development do
   gem 'mina-unicorn', '0.0.3', :require => false
 end
 
+gem 'whenever', require: false
